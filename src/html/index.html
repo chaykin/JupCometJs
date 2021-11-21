@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body>
+<div id="appContainer" class="main">
+    <div id="loading">Loading...</div>
+</div>
+<div id="statusPanel">
+    <table>
+        <tr>
+            <td>Min distance, km:</td>
+            <td><span id="minDst"></span></td>
+        </tr>
+        <tr>
+            <td>Min height, km:</td>
+            <td><span id="minHeight"></span></td>
+        </tr>
+        <tr>
+            <td>Satellite ΔE:</td>
+            <td><span id="DE"></span></td>
+        </tr>
+        <tr>
+            <td>Status:</td>
+            <td><span id="status"></span></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

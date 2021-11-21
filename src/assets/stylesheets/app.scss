@@ -1,0 +1,50 @@
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 0;
+}
+
+#webgl-error-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: tomato;
+    border: 1px solid tomato;
+    font-size: large;
+    padding: 1rem;
+    z-index: 10;
+}
+
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: xxx-large;
+}
+
+.slider {
+    width: 50% !important;
+}
+.dg .has-slider input[type=text] {
+    width: 46%;
+}
+
+#statusPanel {
+    z-index: 1000;
+    color: #eee;
+    font: 11px 'Lucida Grande', sans-serif;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
